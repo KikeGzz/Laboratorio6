@@ -5,16 +5,17 @@
     list-style: none;
 }
 body{
-    background-color: bisque;
+    background-color: black;
 }
 a, li{
     font-family: sans-serif;
+    color: white;
 }
 .Imagen img{
     width: 50px;
 }
 header{
-    background-color: black;
+    background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,17 +29,17 @@ header{
     margin-right: 1.5rem;
 }
 .menu a:hover{
-    color: aqua;
+    color: black;
 }
 .menu li:last-child{
-    background-color: black;
-    border: 2px solid blue;
+    background-color: red;
+    border: 2px solid black;
     padding: .25rem .75rem;
     border-radius: .2rem;
 }
 .menu li:last-child:hover{
     background: transparent;
-    border: 2px solid blueviolet;
+    border: 2px solid white;
 }
 .parrafo{
     text-align: center;
